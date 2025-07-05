@@ -5,9 +5,9 @@ public class Club {
 public static void main(String[] args)
 
     {
-        Scanner scanner = new Scanner(System.in);
+        Scanner age_input = new Scanner(System.in);
         System.out.println("Enter your age:");
-        int user_age = scanner.nextInt();
+        int user_age = age_input.nextInt();
 
         if (user_age >= 18) 
 
@@ -15,7 +15,7 @@ public static void main(String[] args)
         else 
         {System.out.println("You are not old enough to enter the club");}
 
-        scanner.close();
+        age_input.close();
     }
 
     

@@ -15,7 +15,7 @@ public static void main(String[] args)
         System.out.println("School Name:+" + school_name);
         System.out.println("School Balance:" +school_balance);
         System.out.println("Exam Average:"+exam_average);
-        System.out.println("Grade:"+grade);
+        System.out.println("Grade:"+grade+" Well done,"+name);
         
 
     }
